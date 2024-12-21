@@ -42,6 +42,7 @@ input {
   input {
     width: 20%;
     margin-top: 50px;
+    font-size: 17px;
   }
 
   #countdown {
@@ -49,7 +50,7 @@ input {
     margin-top: 200px;
   }
   #name {
-    font-size: 10px;
+    font-size: 19px;
     width: 60%;
   }
 }
