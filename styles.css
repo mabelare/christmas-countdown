@@ -1,0 +1,55 @@
+body {
+  background: url(snow2.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: rgb(23, 107, 23);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+#countdown {
+  font-size: 70px;
+  margin-top: 290px;
+}
+
+canvas {
+  display: block;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+input {
+  border: 3px solid green;
+  width: 30%;
+  padding: 20px;
+}
+#name {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+  text-align: center;
+}
+#greeting {
+  font-size: 20px;
+  margin-top: 0;
+  color: green;
+}
+
+@media screen and (max-width: 600px) {
+  input {
+    width: 20%;
+    margin-top: 50px;
+  }
+
+  #countdown {
+    font-size: 50px;
+    margin-top: 200px;
+  }
+  #name {
+    font-size: 10px;
+    width: 60%;
+  }
+}
